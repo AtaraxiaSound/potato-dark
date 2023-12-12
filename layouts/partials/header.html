@@ -8,8 +8,12 @@
     {{ partial "menu.html" . }}
     {{ if .IsPage }}
     <p class="c-title p-title"><a href="{{ .Site.BaseURL }}" class="p-title__link">{{ .Site.Title }}</a></p>
+    <h4>{{ .Site.Params.description }}</h2>
+
     {{ else }}
     <h1 class="c-title p-title"><a href="{{ .Site.BaseURL }}" class="p-title__link">{{ .Site.Title }}</a></h1>
+    <h4>{{ .Site.Params.description }}</h2>
+
     {{ end }}
     {{ with .Site.Params.subtitle }}
     <p class="p-subtitle">

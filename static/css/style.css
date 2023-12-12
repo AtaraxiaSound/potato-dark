@@ -247,11 +247,12 @@ img {
 }
 
 .c-article__title a {
-    color: #111
+    color: #111;
+    text-decoration: underline;
 }
 
 .c-article__title a:hover {
-    color: #175081
+    color: #e00c0c
 }
 
 .c-article__meta {
@@ -454,7 +455,7 @@ img {
     padding-bottom: 14px;
     margin-bottom: 4rem;
     display: inline-block;
-    border-left: 1rem solid #ED5276cc;
+    border-left: 1rem solid #fcd600;
 }
 
 /* change */
